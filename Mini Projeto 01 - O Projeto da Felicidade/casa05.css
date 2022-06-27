@@ -1,0 +1,97 @@
+body {
+    background: #FF7982;
+    padding: 70px 80px 0px 80px;
+    margin-bottom: 0px;
+}
+
+div {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.conteudoMaster {
+    background: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.number1 {
+    max-width: 645px;
+    background: rgba(9, 24, 63, 0.5);
+    box-shadow: 0px 14px 25px -10px rgba(9, 24, 63, 0.17);
+    border-radius: 10px;
+    color: white;
+    padding: 55px;
+}
+
+.number2, .number3 {
+    max-width: 500px;
+    border-radius: 5px;
+    color: black;
+}
+
+.number2 {
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    line-height: 46px;
+}
+
+.number1 h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.number2 h1, .number3 h1 {
+    font-size: 26px;
+    margin-bottom: 26px;
+}
+
+p {
+    font-family: 'Mulish', sans-serif;
+}
+.number1 p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.number2 p, .number3 p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 38px;
+}
+
+a {
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+}
+.number1 a {
+    background: #FF8E4F;
+    color: white;
+}
+
+.number2 a, .number3 a {
+    color: #09183F;
+    background: #FFFFFF;
+    border: 1px solid #09183F;
+    box-sizing: border-box;
+}
+
+.conteudo2, .conteudo3{
+    padding: 50px 60px 40px 60px
+}
+
+.background {
+    background-image: url("assets/background.png");
+    background-size: cover;
+    padding: 55px 0px;
+    margin-bottom: 70px;
+}

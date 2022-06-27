@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+/* ------------------------------------------ CARD PRINCIPAL--------------------------------------- */
+.cardPrincipal {
+    box-sizing: border-box;
+    width: 1440px;
+    height: 4174px;
+}
+/* --------------------------------------------CARD 1------------------------------------------------ */
+.card1 {
+    background-image: url("assets/image-header.jpg");
+    background-size: cover;
+    height: 800px;   
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.imagemLogo, .nome {
+    margin: 34px 44px 0px;
+}
+
+.titulo {
+    margin-top: 130px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 69px;
+    letter-spacing: 8.75px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nome span {
+    margin-right: 47px; 
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.128571px;
+}
+
+.botao  {
+    background-color: white;
+    padding: 16px 31px;
+    border-radius: 28px;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.107143px;
+    text-transform: uppercase;
+    color: #24303E;
+}
+/* --------------------------------------------CARD 2------------------------------------------------- */
+.card2 {
+    height: 600px;
+    display:flex;
+    box-sizing: border-box;
+}
+
+.num1, .num2 {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.num2 {
+    background-image: url("assets/image-transform.jpg");
+}
+
+.num1 {
+    box-sizing: border-box;
+    padding: 158px 130px;
+}
+
+.num1 h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -0.285714px;
+    color: #24303E;
+    margin-bottom: 32px;
+}
+
+.num1 p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.128571px;
+    color: #808397;
+    margin-bottom: 40px;
+}
+
+.link1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24303E;
+}
+/* --------------------------------------------CARD 3------------------------------------------------- */
+.card3 {
+    height: 600px;
+    display:flex;
+    box-sizing: border-box;
+}
+
+.num3, .num4 {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.num3 {
+    background-image: url("assets/image-stand-out.jpg");
+}
+
+.num4 {
+    box-sizing: border-box;
+    padding: 158px 130px;
+}
+
+.num4 h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -0.285714px;
+    color: #24303E;
+    margin-bottom: 32px;
+}
+
+.num4 p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.128571px;
+    color: #808397;
+    margin-bottom: 40px;
+}
+
+.link2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24303E;
+}
+/* --------------------------------------------CARD 4------------------------------------------------- */
+.card4 {
+    height: 600px;
+    display:flex;
+    box-sizing: border-box;
+}
+
+.num5, .num6 {
+    flex-grow: 1;
+    flex-basis: 300px;
+    box-sizing: border-box;
+    padding: 398px 130px 0px;
+}
+
+.num5 {
+    background-image: url("assets/image-graphic-design.jpg");
+}
+
+.num6 {
+    background-image: url("assets/image-photography.jpg");
+}
+
+.num5 h1, .num6 h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #24554A;
+    margin-bottom: 27px;
+}
+
+.num5 p, .num6 p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.114286px;
+    color: #3E7467;
+}
+/* --------------------------------------------CARD 5------------------------------------------------- */
+.card5 {
+    height: 777px;
+    padding: 150px 120px;
+    box-sizing: border-box;
+}
+
+.perfis {
+    display: flex;
+    justify-content: center;
+}
+
+.perfil1, .perfil2, .perfil3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tituloCard5 {
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #A7AAAD;
+    margin-bottom: 81px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagem1, .imagem2, .imagem3 {
+    border-radius: 80%;
+    margin-bottom: 58px;
+}
+
+.coment1, .coment2, .coment3 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #5B636D;
+    margin-bottom: 55px;
+}
+
+.perfis h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #24303E;
+    margin-bottom: 9px;
+}
+
+.profissao1, .profissao2, .profissao3 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #A7AAAD;
+}
+/* --------------------------------------------CARD 6------------------------------------------------- */
+.card6 {
+    height: 447px;
+    box-sizing: border-box;
+    display:flex;
+}
+
+.foto1, .foto2, .foto3, .foto4 {
+    flex-grow: 1;
+}
+
+.foto1 {
+    background-image: url(assets/image-gallery-milkbottles.jpg);
+    background-size: cover;
+}
+
+.foto2 {
+    background-image: url(assets/image-gallery-orange.jpg);
+    background-size: cover;
+}
+
+.foto3 {
+    background-image: url(assets/image-gallery-cone.jpg);
+    background-size: cover;
+}
+
+.foto4 {
+    background-image: url(assets/image-gallery-sugarcubes.jpg);
+    background-size: cover;
+}
+/* --------------------------------------------CARD 7------------------------------------------------- */
+.card7 {
+    height: 350px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 72px 572px;
+    background: #90D4C6;
+}
+
+.imagemLogoDark{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 88px;
+}
+
+.logosEmpresas {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.sobre p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.128571px;
+    color: #458D7E;
+}

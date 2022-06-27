@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 55px 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+.card1 {
+    background: #FFFFFF;
+    box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+    border-radius: 10px;
+    width: 666px;
+    height: 368px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    margin-bottom: 70px;
+}
+
+.topo1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 33px;
+}
+
+.perfil1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grp1, .grp2, .grp3, .grp4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 135px;
+    height: 195px;
+    padding: 15px 35px 0px 35px;
+}
+
+.fundo1, .fundo2, .fundo3, .fundo4 {
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soma1, .soma2, .soma3, .soma4 {
+    width: 18px;
+    height: 18px;
+}
+
+.topo1 h1 {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.topo1 a {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.img1 img, .img2 img , .img3 img, .img4 img {
+    border-radius: 50%;
+    width: 66px;
+    height: 66px;
+}
+
+.grp1 h1, .grp2 h1, .grp3 h1, .grp4 h1 {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+
+/* ---------------------------------------------card 2 ------------------------------------------------------------ */
+
+.card2 {
+    width: 451px;
+    height: 653px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+    border-radius: 15px;
+    padding: 59px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topo2 {
+    display: flex;
+    margin-bottom: 55px;
+}
+
+
+.per1, .per2, .per3, .per4 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.per4 {
+    margin-bottom: 60px;
+}
+
+.topo2 h1 {
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.numero {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    width: 39px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tit2 {
+    margin-right: 10px;
+}
+
+.img12, .img22, .img32, .img42 {
+    border-radius: 50%;
+    width: 66px;
+    height: 66px;
+    margin-right: 20px;
+}
+.info1 h1, .info2 h1, .info3 h1, .info4 h1 {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.info1 p, .info2 p, .info3 p, .info4 p { 
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 131px;
+}
+
+.base2 a{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 60px;
+    padding: 18px 30px;
+    text-decoration: none;
+}

@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1F1C44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 517px;
+    height: 765px;
+    padding: 60px 90px 50px 90px;
+    font-family: 'Neuton', serif;
+}
+
+.topo h1 {
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 54px;
+}
+
+.botao1 button {
+    all:unset;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 337px;
+    height: 69px;
+    padding: 7px 50px;
+    background: #5B86E6;
+    border-radius: 5px;
+    margin-bottom: 55px;
+}
+
+.botao1 button:hover {
+    all:unset;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 337px;
+    height: 69px;
+    padding: 7px 50px;
+    background: #5B86E6;
+    box-shadow: 0px 4px 13px rgba(19, 69, 178, 0.3);
+    border-radius: 5px;
+    margin-bottom: 55px;
+    cursor: pointer;
+}
+
+.bt1 img {
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.bt1 p {
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-right: 5px;
+}
+
+.meio  {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #949495;
+    margin-bottom: 39px;
+}
+
+.caixa1, .caixa2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.caixa1 label, .caixa2 label {
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.caixa1 input, .caixa2 input {
+    all:unset;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #D9DCED;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 337px;
+    height: 69px;
+    padding: 25px 0px 25px 22px;
+}
+
+.caixa1 input:focus, .caixa2 input:focus {
+    all:unset;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 337px;
+    height: 69px;
+    padding: 25px 0px 25px 22px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.caixa1 input::placeholder, .caixa2 input::placeholder {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949495;
+}
+
+.botao2 button {
+    all:unset;
+    background: #E65B7C;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 337px;
+    height: 69px;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: 5px;
+}
+
+.botao2 button:hover {
+    all:unset;
+    background: #E65B7C;
+    box-shadow: 0px 4px 15px rgba(204, 28, 69, 0.3);
+    border-radius: 5px;
+    width: 337px;
+    height: 69px;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.base h1 {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.base a {
+    color: #5B86E6;
+    text-decoration: none;
+}

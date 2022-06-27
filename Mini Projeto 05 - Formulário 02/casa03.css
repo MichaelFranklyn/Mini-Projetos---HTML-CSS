@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    width: 610px;
+    height: 708px;
+    padding: 64px 90px 56px 90px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.topo {
+    color: #161843;
+    margin-bottom: 52px;
+}
+
+.topo h1 {
+    font-family: 'Rokkitt', serif;
+    font-size: 36px;
+    line-height: 41px;
+    margin-bottom: 15px;
+}
+
+.topo p {
+    font-size: 16px;
+    line-height: 23px;
+    padding-right: 91px;
+}
+
+.meio1 input {
+    all:unset;
+    border: 1px solid #CAD6E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 430px;
+    height: 73px;
+    padding: 25px 0px 25px 25px;
+    margin-bottom: 16px;
+}
+
+.meio1 input::placeholder {
+    font-size: 18px;
+    line-height: 23px;
+    color: #717A91;
+}
+
+.meio1 input:focus {
+    all:unset;
+    border: 1px solid #26394F;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 430px;
+    height: 73px;
+    padding: 25px 0px 25px 25px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #343945;
+}
+
+.meio2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.link a {
+    font-size: 16px;
+    line-height: 20px;
+    color: #0C6787;
+    text-decoration: none;
+}
+
+.meio2 button {
+    all:unset;
+    background: #046586;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 157px;
+    height: 73px;
+    padding: 25px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meio2 button:hover {
+    all:unset;
+    background: #057397;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 157px;
+    height: 73px;
+    padding: 25px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.botao1 h1 {
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    width: 41px;
+    height: 23px;
+}
+
+.botao1 img {
+    width: 32px;
+    height: 32px;
+}
+
+.meio3 {
+    border-top: 1px solid #CAD6E4;
+    padding-top: 35px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    color: #838A9E;
+    margin-bottom: 30px;
+}
+
+.bts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.bt1 button, .bt2 button {
+    all:unset;
+    background: #FFFFFF;
+    border: 1px solid #CAD6E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    width: 207px;
+}
+
+.bt1 button {
+    padding: 10px 45px;
+}
+
+.bt2 button {
+    padding: 10px 55px;
+}
+
+.bt1 button:hover, .bt2 button:hover {
+    all:unset;
+    background: #FFFFFF;
+    border: 1px solid #26394F;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    width: 207px;
+    cursor: pointer;
+}
+
+.bt1 button:hover {
+    padding: 10px 45px;
+}
+
+.bt2 button:hover {
+    padding: 10px 55px;
+}
+
+.base {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    text-align: center;
+}
+
+.base a {
+    color: #046586;
+}
